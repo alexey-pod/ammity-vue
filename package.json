@@ -8,13 +8,7 @@
 	"scripts": {
 		"dev": "cross-env NODE_ENV=development webpack --progress --hide-modules --watch",
 		"dev-server": "cross-env NODE_ENV=development webpack-dev-server --hot --inline --port 3000 --watch",
-		"dev1__": "cross-env NODE_ENV=development webpack-dev-server --hot --inline --watch",
-		"watch__": "cross-env NODE_ENV=development webpack-dev-server --hot --inline --watch",
-		"dev__": "cross-env NODE_ENV=development webpack-dev-server --hot --inline --port 3000 --watch",
-		"dev-old__": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
-		"build__": "cross-env NODE_ENV=production webpack --progress --hide-modules",
-		"build2__": "cross-env NODE_ENV=production webpack --progress --hide-modules --watch",
-		"start__": "./node_modules/.bin/webpack-dev-server --host localhost --port 3000 --content-base src --inline --hot"
+		"prod": "cross-env NODE_ENV=production webpack --progress --hide-modules"
 	},
 	"dependencies": {
 		"axios": "^0.18.0",
