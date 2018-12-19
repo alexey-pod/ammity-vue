@@ -22,7 +22,7 @@ import ann_item from './catalog/ann-item';
 import compare from './catalog/compare';
 
 // components
-import c_left_sidebar from './components/left-sidebar/sidebar';
+import c_sidebar from './components/sidebar/sidebar';
 import c_basket from './components/basket';
 import c_quick_search from './components/quick-search';
 
@@ -90,9 +90,9 @@ new Vue({
 	router,
 	el: '#app',
 	components: {
-		'left-sidebar': c_left_sidebar,
-		'quick-search': c_quick_search,
-		basket: c_basket
+		sidebar: c_sidebar,
+		basket: c_basket,
+		'quick-search': c_quick_search
 	},
 	computed: {
 		header() {

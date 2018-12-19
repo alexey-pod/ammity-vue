@@ -10,8 +10,8 @@
 </template>
 
 <script>
-import menu from '../left-sidebar/menu.vue';
-import banner from '../left-sidebar/banner.vue';
+import menu from '../sidebar/sidebar-menu';
+import banner from '../sidebar/sidebar-banner';
 
 export default {
 	components: { 'banner-block': banner, 'menu-block': menu },
