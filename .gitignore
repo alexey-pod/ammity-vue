@@ -1,0 +1,27 @@
+.DS_Store
+node_modules/
+dist/
+npm-debug.log
+yarn-error.log
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+app/ext-js/
+admin/
+css/
+fileData/
+img/
+imgData/
+inc/
+js/
+respondents/
+sessions/
+Smarty-2.6.26/
+tpl/
+tpl_c/
+favicon.ico

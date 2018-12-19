@@ -1,0 +1,27 @@
+{
+	"editor.formatOnSave": true, // включение prettier по сохранению
+	"[html]": {
+		"editor.formatOnSave": false
+	},
+	"eslint.autoFixOnSave": true,
+	"eslint.validate": [
+		{
+			"language": "vue",
+			"autoFix": true
+		},
+		{
+			"language": "javascript",
+			"autoFix": true
+		},
+		{
+			"language": "html",
+			"autoFix": true
+		}
+	],
+	// для того чтобы в vue файлах в теге <script> двойные кавычки заменялись на одинарные
+	"vetur.format.defaultFormatterOptions": {
+		"prettier": {
+			"singleQuote": true
+		}
+	}
+}
